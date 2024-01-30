@@ -1,0 +1,14 @@
+:root {
+    --font: 'Manrope', sans-serif;
+    --font-title: 'Playfair Display', sans-serif;
+    --font-accent: 'Bree Serif', sans-serif;
+    --text-weight: 400;
+    --title-weight: 700;
+    --accent-color: #82663e;
+    --ac-color: #bb8944;
+    --accent-col: #492e19;
+    --acc-col: #bb9f7a;
+    --color: #98592d;
+    --light-color: #f2cdb4;
+    --button-color: #009B95;
+}

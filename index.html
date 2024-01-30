@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Массажный салон Baldegi</title>
+    <link rel="stylesheet" href="./fonts/fonts.css"/>
+    <link rel="stylesheet" href="./styles/variables.css"/>
+    <link rel="stylesheet" href="./styles/global.css"/>
+    <link rel="stylesheet" href="./styles/style.css"/>
+    <link rel="stylesheet" href="./styles/animation.css"/>
+
+    <link rel="icon" href="./images/favicon.ico" sizes="any">
+    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="./images/favicon.png">
+</head>
+<body class="page">
+    <header class="header">
+        <nav class="header__menu">
+            <div class="header__logo">
+                <p class="header__logo-name">
+                    Baldegi
+                </p>
+                <p class="header__logo-text">
+                    уютная студия массажа
+                </p>
+            </div>
+            <div class="bh">
+                <div class="bw">
+                    <div class="e1">
+                        <button class="header__button-menu" id="btn-menu" onclick="onClickMenu();">
+                            <div class="line">
+                            </div>
+                        </button>
+                    </div>
+                    <ul class="e2" id="ul-menu">
+                        <li><a href="#promotion" target="_self">Акции</a></li>
+                        <li><a href="#exclusive" target="_self">Эксклюзивы</a></li>
+                        <li><a href="#pakets" target="_self">Пакеты</a></li>
+                        <li><a href="#masters" target="_self">Мастера</a></li>
+                        <li><a href="#reviews" target="_self">Отзывы</a></li>
+                        <li><a href="#contacts" target="_self">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>       
+        <div class="header__text">
+            <p class="header__slogan">
+                ВПУСТИ В СВОЮ ЖИЗНЬ МАССАЖ
+            </p>
+            <h1 class="header__title">
+                Baldegi
+            </h1>
+            <p class="header__promotion">
+                Первый сеанс всего за 1390&#8381;
+            </p>
+            <button class="header__button" type="button">
+                    Выбрать мастера и записаться
+            </button>
+        </div>
+    </header>
+    <main class="main">
+        <section class="promotion" id="promotion">
+            <div class="promotion__header">
+                <h2 class="section__title promotion__title">
+                    Акции
+                </h2>
+                <p class="promotion__text">
+                    для новых клиентов первое посещение
+                </p>
+            </div>
+
+            <ul class="promotion__list">
+                <li class="promotion__list-item">
+                    <a class="card-link" href="#0">
+                        <article class="card">
+                            <p class="promotion__name">
+                                Сеанс 60 минут массажа
+                            </p>
+                            <p class="card__text">
+                                1990&#8381;
+                            </p>
+                            <img class="promotion__image"
+                            src="./images/4.jpg"
+                            alt="">
+                            <div class="promotion__price">
+                                1390&#8381;
+                            </div>
+                            <p class="card__text-bottom">
+                                Ваше тело скажет Вам спасибо
+                            </p>
+                        </article>
+                    </a>
+                </li>
+
+                <li class="promotion__list-item">
+                    <a class="card-link" href="#0">
+                        <article class="card">
+                            <p class="promotion__name">
+                                Массаж лица 45 минут
+                            </p>
+                            <p class="card__text">
+                                1990&#8381;
+                            </p>
+                            <img class="promotion__image"
+                            src="./images/14.jpg"
+                            alt="">
+                            <div class="promotion__price">
+                                1390&#8381;
+                            </div>
+                            <p class="card__text-bottom">
+                                Ваше тело скажет Вам спасибо
+                            </p>
+                        </article>
+                    </a>
+                </li>
+
+                <li class="promotion__list-item">
+                    <a class="card-link" href="#0">
+                        <article class="card">
+                            <p class="promotion__name">
+                                LPG массаж 45 минут
+                            </p>
+                            <p class="card__text">
+                                1700&#8381;
+                            </p>
+                            <img class="promotion__image"
+                            src="./images/lpg.jpg"
+                            alt="">
+                            <div class="promotion__price">
+                                1190&#8381;
+                            </div>
+                            <p class="card__text-bottom">
+                                Ваше тело скажет Вам спасибо
+                            </p>
+                        </article>
+                    </a>
+                </li>
+
+                <li class="promotion__list-item">
+                    <a class="card-link" href="#0">
+                        <article class="card">
+                            <p class="promotion__name">
+                                Массаж <br>  "Исцеляющие прикосновения"
+                            </p>
+                            <p class="card__text">
+                               2500&#8381;
+                            </p>
+                            <img class="promotion__image"
+                            src="./images/1.jpg"
+                            alt="">
+                            <div class="promotion__price">
+                                1750&#8381;
+                            </div>
+                            <p class="card__text-bottom">
+                                Ваше тело скажет Вам спасибо
+                            </p>
+                        </article>
+                    </a>
+                </li>
+
+
+                <li class="promotion__list-item">
+                    <a class="card-link" href="#0">
+                        <article class="card">
+                            <p class="promotion__name">
+                                ACCESS BARS <br>  от 60 до 90 минут
+                            </p>
+                            <p class="card__text">
+                                3500&#8381;
+                            </p>
+                            <img class="promotion__image"
+                            src="./images/11.jpg"
+                            alt="">
+                            <div class="promotion__price">
+                                2000&#8381;
+                            </div>
+                            <p class="card__text-bottom">
+                                Ваше тело скажет Вам спасибо
+                            </p>
+                        </article>
+                    </a>
+                </li>
+
+                <li class="promotion__list-item">
+                    <a class="card-link" href="#0">
+                        <article class="card">
+                            <p class="promotion__name">
+                                Сеанс "Обнуление и запуск новых энергий"
+                            </p>
+                            <p class="card__text">
+                                4000&#8381;
+                            </p>
+                            <img class="promotion__image"
+                            src="./images/2.jpg"
+                            alt="">
+                            <div class="promotion__price">
+                                3000&#8381;
+                            </div>
+                            <p class="card__text-bottom">
+                                Ваше тело скажет Вам спасибо
+                            </p>
+                        </article>
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="exclusive">
+            <h2 class="section__title exclusive__title" id="exclusive">
+                Эксклюзивы
+            </h2>
+            <ul class="exclusive__list">
+                <li class="exclusive__list-item">
+                        <article class="exclusive__card healing__touch">
+                            <p class="exclusive__name">
+                                Исцеляющие прикосновения
+                            </p>
+                            <p class="exclusive__time">
+                                80 минут
+                            </p>
+                            <p class="exclusive__price">
+                                2500&#8381;
+                            </p>
+                            <button type="button" class="exclusive__button" onclick="window['action'].showModal()" aria-controls="action">
+                                <img src="./images/Frame 1.png" alt="">
+                            </button>
+                            <dialog id="action" class="dialog">
+                                <p class="dialog__text">
+                                    Этот массаж - про любовь к себе, своему состоянию и наполненности!<br>
+                                    Расслабляющий массаж, наполняющий энергией.<br>
+                                    Проводится с эфирными маслами - под запрос человека.<br>
+                                    Помогает убрать нервное напряжение, настроиться на положительные эмоции, уходит усталость и напряжение.<br>
+                                    Даёт возможность привести своë душевое состояние к гармонии со своими мыслями, стать устойчивей к стрессу.
+                                </p>
+                                <button
+                                class="dialog__button"
+                                type="button" 
+                                onclick="window['action'].close()">
+                                <span class="button__text">
+                                  назад
+                                </span>
+                              </button>
+                            </dialog>
+                        </article>
+                </li>
+                <li class="exclusive__list-item">
+                        <article class="exclusive__card hawaiian__massage">
+                            <p class="exclusive__name">
+                                Гавайский массаж Ломи-Ломи
+                            </p>
+                            <p class="exclusive__time">
+                                90 минут
+                            </p>
+                            <p class="exclusive__price">
+                                4000&#8381;
+                            </p>
+                            <button type="button" class="exclusive__button" onclick="window['action2'].showModal()" aria-controls="action2">
+                                <img src="./images/Frame 1.png" alt="">
+                            </button>
+                            <dialog id="action2" class="dialog">
+                                <p class="dialog__text">
+                                    Массаж одновременно воздействует на все сферы: телесную, эмоциональную и духовную, освобождая от памяти прошлых событий.
+                                    Это древний и духовный вид массажа, котрый используют для глубокого расслабления, очищения от событий прошлого и трансформации. 
+                                    Ломи - это искусство исцеления, которое возвращает человека к себе, делает его целостным, позволяет увидеть свое истинное предназначение. 
+                                    Ломи делается предплечьями в движении танца, что обеспечивает мягкое, но очень глубокое воздействие, а сочетание теплого масла и 
+                                    мелодичной гавайской музыки придаст вам ощущение легкости и душевного комфорта. Во время массажа уделяется внимание проработке суставов, 
+                                    повышается их гибкость и подвижность. Обычно массаж Ломи-Ломи проводится для осуществления задуманного, считается, что он имеет свойства 
+                                    исполнять желания. Поэтому перед массажем рекомендуется сформулировать или подумать о своем запросе или желании"						
+                                </p>
+                                <button
+                                class="dialog__button"
+                                type="button" 
+                                onclick="window['action2'].close()">
+                                <span class="button__text">
+                                  назад
+                                </span>
+                              </button>
+                            </dialog>
+                        </article>
+                </li>
+                <li class="exclusive__list-item">
+                        <article class="exclusive__card tibetan__bowls">
+                            <p class="exclusive__name">
+                                Массаж поющими тибетскими чашами
+                            </p>
+                            <p class="exclusive__time">
+                                80 минут
+                            </p>
+                            <p class="exclusive__price">
+                                2500&#8381;
+                            </p>
+                            <button type="button" class="exclusive__button" onclick="window['action3'].showModal()" aria-controls="action3">
+                                <img src="./images/Frame 1.png" alt="">
+                            </button>
+                            <dialog id="action3" class="dialog">
+                                <p class="dialog__text">
+                                    Звуковая вибрация поющих чаш расслабляет мышцы воротниковой, шейной зоны, помогает при остеохондрозе. 
+                                    На эмоциональном уровне массаж поющими чашами - это отличное антистрессовое средство, во время массажа происходит 
+                                    ресслабление, начинают выходить эмоции, наступает умиротворение и гармонизация. Целительные свойства звуков поющих 
+                                    чаш гармонизируют взаимодействие между симпатической и парасимпатической нервными системами.При ударе ситком по 
+                                    чаще возникают вибрационные волны, которые приводят в движение клеточную жидкость. Происходит глубинный внутренний 
+                                    массаж тканей и органов на клеточном уровне, вибрации разливаются по всему телу. Звук поющей чаши ускоряет регенерацию 
+                                    клеток и омолаживает организм, способствует выработке гормонов радости, подтягивает кожу, делая ее красивой и здоровой. 
+                                    Массаж поющими тибетскими чашами –  звуковой вибрационный массаж,  гармонизирующий психо-эмоционального состояние, 
+                                    дающий успокоение, расслабление.						
+                                </p>
+                                <button
+                                class="dialog__button"
+                                type="button" 
+                                onclick="window['action3'].close()">
+                                <span class="button__text">
+                                  назад
+                                </span>
+                              </button>
+                            </dialog>
+                        </article>
+                </li>
+        </section>
+
+        <section class="pakets">
+            <h2 class="section__title pakets__title" id="pakets">
+                Пакеты
+            </h2>
+            <ul class="pakets__list">
+                <li class="pakets__list-item">
+                    <a class="pakets__card-link" href="#0">
+                        <p class="pakets__name">
+                            Массаж тела <br> 60 минут
+                        </p>
+                        <article class="pakets__card massage__body">
+                            <button class="pakets__button" type="button" onclick="window['action4'].showModal()" aria-controls="action4">
+                                Подробнее
+                            </button>
+                            <dialog id="action4" class="pakets__dialog">
+                                <p class="pakets__about">
+                                    Массаж, который Вы можете выбрать с мастером: <br>
+                                    Классический‌ массаж - для общего оздоровления, снять мышечное напряжение, увеличить приток кислорода к клеткам.<br>
+                                    Релаксирующий‌ - расслабляющий‌ глубокий‌ массаж, помогает при переутомлении, хронической‌ усталости, бессоннице, 
+                                    снимает напряжение умственное и физическое.<br>
+                                    Лимфодренажный – выводит токсины и излишнюю жидкость из организма, устраняет отёчность, восстанавливает метаболизм.
+                                    Оказывает омолаживающее действие на организм.<br>
+                                    Спортивный‌ – помочь мышцам расслабиться, ускорить процесс восстановления после тренировок или подготовить 
+                                    тело к физическим нагрузкам.
+                                </p>
+                                <div class="pakets__dialog__table">
+                                    <p class="pakets__dialog__text">
+                                        Массаж тела 60 минут (5 сеансов)
+                                    </p>
+                                    <p class="pakets__dialog__price">
+                                        9500&#8381;
+                                    </p>
+                                    <p class="pakets__dialog__text">
+                                        Массаж тела 60 минут (10 сеансов)
+                                    </p>
+                                    <p class="pakets__dialog__price">
+                                        18700&#8381;
+                                    </p>
+                                </div>
+                                <button
+                                class="pakets__dialog__button"
+                                type="button" 
+                                onclick="window['action4'].close()">
+                                <span class="pakets__dialog__button__text">
+                                  OK
+                                </span>
+                              </button>
+                            </dialog>
+                        </article>
+                    </a>
+                </li>
+                <li class="pakets__list-item">
+                    <p class="pakets__name">
+                        Массаж "Исцеляющие прикосновения"
+                    </p>
+                    <a class="pakets__card-link" href="#0">
+                        <article class="pakets__card massage__touch">
+                            <button class="pakets__button" type="button" onclick="window['action5'].showModal()" aria-controls="action5">
+                                Подробнее
+                            </button>
+                            <dialog id="action5" class="pakets__dialog">
+                                <p class="pakets__about">
+                                    Этот массаж - про любовь к себе, своему состоянию и наполненности!
+                                    Расслабляющий массаж, наполняющий энергией.
+                                    Проводится с эфирными маслами - под запрос человека.
+                                    Помогает убрать нервное напряжение, настроиться на положительные эмоции, уходит усталость и напряжение.
+                                    Даёт возможность привести своë душевое состояние к гармонии со своими мыслями, стать устойчивей к стрессу.
+                                </p>
+                                <div class="pakets__dialog__table">
+                                    <p class="pakets__dialog__text">
+                                        Массаж "Исцеляющие прикосновения" (5 сеансов)
+                                    </p>
+                                    <p class="pakets__dialog__price">
+                                        11500&#8381;
+                                    </p>
+                                    <p class="pakets__dialog__text">
+                                        Массаж "Исцеляющие прикосновения" (10 сеансов)
+                                    </p>
+                                    <p class="pakets__dialog__price">
+                                        21000&#8381;
+                                    </p>
+                                </div>
+                                <button
+                                class="pakets__dialog__button"
+                                type="button" 
+                                onclick="window['action5'].close()">
+                                <span class="pakets__dialog__button__text">
+                                  OK
+                                </span>
+                              </button>
+                            </dialog>
+                        </article>
+                    </a>
+                </li>
+                <li class="pakets__list-item">
+                    <a class="pakets__card-link" href="#0">
+                        <p class="pakets__name">
+                            Массаж лица <br> 45 минут
+                        </p>
+                        <article class="pakets__card massage__face">
+                            <button class="pakets__button" type="button" onclick="window['action6'].showModal()" aria-controls="action6">
+                                Подробнее
+                            </button>
+                            <dialog id="action6" class="pakets__dialog">
+                                <p class="pakets__about">
+                                    Массаж лица - это натуральный лифтинг, который помогает держать в тонусе кожу и мышцы лица. Избавиться от отечности,
+                                    замедлить увядание и улучшить цвет лица.
+                                    С возрастом кожа теряет эластичность, но, если за этим следить и регулярно делать массаж лица, можно надолго сохранить 
+                                    естественную красоту и молодость!
+                                    Даже самые совершенные аппараты не заменят мастерство и тепло человеческих рук.
+                                    Массаж лица по- прежнему остаётся самым безопасным и эффективным способом замедлить старение.
+                                </p>
+                                <div class="pakets__dialog__table">
+                                    <p class="pakets__dialog__text">
+                                        Массаж лица 45 минут (5 сеансов)
+                                    </p>
+                                    <p class="pakets__dialog__price">
+                                        9500&#8381;
+                                    </p>
+                                    <p class="pakets__dialog__text">
+                                        Массаж лица 45 минут (10 сеансов)
+                                    </p>
+                                    <p class="pakets__dialog__price">
+                                        18700&#8381;
+                                    </p>
+                                </div>
+                                <button
+                                class="pakets__dialog__button"
+                                type="button" 
+                                onclick="window['action6'].close()">
+                                <span class="pakets__dialog__button__text">
+                                  OK
+                                </span>
+                              </button>
+                            </dialog>
+                        </article>
+                    </a>
+                </li>
+                <li class="pakets__list-item">
+                    <a class="pakets__card-link" href="#0">
+                        <p class="pakets__name">
+                            LPG массаж <br> 45 минут
+                        </p>
+                        <article class="pakets__card massage__lpg">
+                            <button class="pakets__button" type="button" onclick="window['action7'].showModal()" aria-controls="action7">
+                                Подробнее
+                            </button>
+                            <dialog id="action7" class="pakets__dialog">
+                                <p class="pakets__about">
+                                    LPG-массаж поможет скорректировать контуры тела, улучшить внешний вид кожи и повысить ее тонус.
+                                    Вакуумно-роликовый lpg-массаж на аппарате WirteX: <br>
+                                    ● поможет смоделировать силуэт<br>
+                                    ● позволит подтянуть «проблеменые» зоны тела <br>
+                                    ● разгладит поверхность кожи <br>
+                                    ● выведет лишнюю жидкость и снизит отечность<br>
+                                    ● избавит от целлюлита и дряблости кожи<br>
+                                    ● выведет молочную кислоту из мышц после активной физической нагрузки<br>
+                                    Имеются противопоказания.<br>
+                                    Индивидуальный костюм, приобретается отдельно.<br>
+                                    Массаж в сочетании с подтягивающим кремом, усиливает эффект от процедуры. <br>
+                                </p>
+                                <div class="pakets__dialog__table">
+                                    <p class="pakets__dialog__text">
+                                        LPG массаж 45 минут (5 сеансов), жиросжигающий крем в подарок
+                                    </p>
+                                    <p class="pakets__dialog__price">
+                                        8000&#8381;
+                                    </p>
+                                    <p class="pakets__dialog__text">
+                                        LPG массаж 45 минут (10 сеансов), костюм в подарок
+                                    </p>
+                                    <p class="pakets__dialog__price">
+                                        15000&#8381;
+                                    </p>
+                                    <p class="pakets__dialog__text">
+                                        LPG массаж 45 минут (15 сеансов), жиросжигающий крем и костюм в подарок
+                                    </p>
+                                    <p class="pakets__dialog__price">
+                                        21000&#8381;
+                                    </p>
+                                </div>
+                                <button
+                                class="pakets__dialog__button"
+                                type="button" 
+                                onclick="window['action7'].close()">
+                                <span class="pakets__dialog__button__text">
+                                  OK
+                                </span>
+                              </button>
+                            </dialog>
+                        </article>
+                    </a>
+                </li>
+        </section>
+
+        <section class="masters">
+            <h2 class="section__title masters__title" id="masters">
+                Мастера
+            </h2>
+            <swiper-container class="mySwiper" scrollbar-hide="true">
+                <swiper-slide>
+                    <img class="master__photo"
+                    src="./images/сысоев алексей.jpg"
+                    alt="">
+                    <p class="master__name">
+                        Сысоев Алексей
+                    </p>
+                    <button type="button" class="master__button" onclick="window['action8'].showModal()" aria-controls="action8">
+                        подробнее о мастере
+                    </button>
+                    <dialog id="action8" class="masters__dialog">
+                        <p class="master__about">
+                            Опыт работы, более 20 лет
+                            Образование: имеет диплом о средне-специальном медицинском образовании.
+                            Диплом "Ассоциации массажистов Урала"
+                            УГМА курсы, сертификат специалиста по лечебному массажу.
+                            Диплом о профессиональной переподготовке по медицинскому массажу.
+                            Сертифицированный специалист по комплексной медицинской реабилитации.
+                            Владеет техниками:
+                            Лечебный, профилактический, восстанавливающий, реабилитационный, антицеллюлитный, лимфодренажный массаж тела.
+                            Детский массаж, начиная с 6 мес.
+                        </p>
+                    </dialog>
+                </swiper-slide>
+                <swiper-slide>
+                    <img class="master__photo"
+                    src="./images/бородина светлана.jpg"
+                    alt="">
+                    <p class="master__name">
+                        Бородина Светлана
+                    </p>
+                    <button type="button" class="master__button" onclick="window['action9'].showModal()" aria-controls="action9">
+                        подробнее о мастере
+                    </button>
+                    <dialog id="action9" class="masters__dialog">
+                        <p class="master__about">
+                            Меня зовут Светлана, опыт работы массажистом 12 лет.
+                            Образование: диплом массажиста, сертификаты повышения квалификации: Anti-age лифтинг фасциальное моделирование 
+                            лица, Детский массаж, Практика телесно-ориентированной терапии, Гавайский массаж Ломи Ломи Нуи.
+                            Делаю классический, расслабляющий, лимфодренажный, спортивный массаж, массаж лица, гавайский массаж Ломи Ломи.
+                            Массаж для меня это дорога постоянного саморазвития и совершенствования.
+                            Это любимое дело жизни которое приносит мне радость!
+                        </p>
+                    </dialog>
+                </swiper-slide>
+                <swiper-slide>
+                    <img class="master__photo"
+                    src="./images/токмаков олег.jpg"
+                    alt="">
+                    <p class="master__name">
+                        Токмаков Олег
+                    </p>
+                    <button type="button" class="master__button" onclick="window['action10'].showModal()" aria-controls="action10">
+                        подробнее о мастере
+                    </button>
+                    <dialog id="action10" class="masters__dialog">
+                        <p class="master__about">
+                            Опыт работы, более 3 лет
+                            Образование: закончил ЛГОУ по специальности - психолог. Сертификаты по прохождению курсов массажа. Участвовал 
+                            в семинарах по различным методикам массажа. Закончил курс, европейского сертификата психотерапевта.
+                            Участник Общероссийской Профессиональной Психотерапевтической Лиги.
+                            Проходит повышение квалификации по курсу телесно-ориентированная терапия.
+                            Владеет техниками: лечебный, профилактический, детский, точечный, сегментарно-рефлекторный, антицеллюлитный массаж тела.
+                        </p>
+                    </dialog>
+                </swiper-slide>
+                <swiper-slide>
+                    <img class="master__photo"
+                    src="./images/кубасова елена.jpg"
+                    alt="">
+                    <p class="master__name">
+                        Кубасова Елена
+                    </p>
+                    <button type="button" class="master__button" onclick="window['action11'].showModal()" aria-controls="action11">
+                        подробнее о мастере
+                    </button>
+                    <dialog id="action11" class="masters__dialog">
+                        <p class="master__about">
+                            Опыт работы, более 5 лет
+                            Образование: имеет диплом с отличием по программе:
+                            "Методики и техники медицинского массажа"
+                            Сертификаты по техникам: буккальный массаж, коруги, мануальное моделирование лица и шеи.
+                            Владеет техниками: классический, общий, антицеллюлитный, лимфодренажный, детский массаж тела.
+                            Буккальный массаж лица. Мануальное моделирование лица и шеи с приемами Сплит-техник.
+                            Авторская техника: "Коруги" - остеопатическая японская техника массажа лица.
+                        </p>
+                    </dialog>
+                </swiper-slide>
+                <swiper-slide>
+                    <img class="master__photo"
+                    src="./images/лучинина любовь.jpg"
+                    alt="">
+                    <p class="master__name">
+                        Лучинина Любовь
+                    </p>
+                    <button type="button" class="master__button" onclick="window['action12'].showModal()" aria-controls="action12">
+                        подробнее о мастере
+                    </button>
+                    <dialog id="action12" class="masters__dialog">
+                        <p class="master__about">
+                            Опыт работы, более 3 лет
+                            Образование: дипломированный специалист, закончила факультет психологии в УРФУ. Обучилась разным техникам 
+                            массажа лица.
+                            Сертификат "Базовый курс-Практик "Школы Психосоматики"
+                            Свидетельство Практико-теоретический курс "Исцеляющие прикосновения"
+                            Сертификат "Ручная пластика лица" Курсы массажа Татьяны Кисилевой.
+                            Владеет техниками: лимфодренажный массаж, нехирургическая блефаропластика глаз, буккальный массаж лица.
+                        </p>
+                    </dialog>
+                </swiper-slide>
+              </swiper-container>
+        </section>
+
+        <section class="reviews">
+            <h2 class="section__title reviews__title" id="reviews">
+                Отзывы
+                <span class="reviews__title-color">
+                    довольных клиентов
+                </span>
+            </h2>
+            <swiper-container class="mySwiper reviews__swiper"  scrollbar-hide="true">
+                <swiper-slide>
+                    <img class="swiper__image" src="./images/отзыв2.png" alt="">
+                </swiper-slide>
+                <swiper-slide>
+                    <img class="swiper__image" src="./images/отзыв1.png" alt="">
+                </swiper-slide>
+                <swiper-slide>
+                    <img class="swiper__image" src="./images/отзыв3.png" alt="">
+                </swiper-slide>
+                <swiper-slide>
+                    <img class="swiper__image" src="./images/отзыв4.png" alt="">
+                </swiper-slide>
+              </swiper-container>
+
+            <button class="reviews__button" type="button">
+                Выбрать мастера и записаться
+            </button>
+        </section>
+
+        <section class="contacts">
+            <h2 class="section__title contacts__title" id="contacts">
+                Контакты
+            </h2>
+            <address class="address__container">
+                <div class="address__item">
+                    <img class="address-icon"
+                    src="./images/location.png"
+                    alt="">
+                    <p class="address__item__title">
+                        Адрес
+                    </p>
+                </div>
+                <p class="address__street">Екатеринбург, улица Владимира Высоцкого, 5</p>
+                <div class="address__item">
+                    <img class="telephone-icon"
+                    src="./images/icon-phone.jpg"
+                    alt="">
+                    <p class="address__item__title">
+                        Телефон
+                    </p>
+                </div>
+                <a href="tel:+79505623400">+7 (950) 562-34-00</a>
+                <div class="address__item">
+                    <img class="open__hour-icon"
+                    src="./images/icon-time.png"
+                    alt="">
+                    <p class="address__item__title">
+                        График работы
+                    </p>
+                </div>
+                <div class="open__hour">
+                    <p class="open__hour__works__day">
+                        В будние дни:
+                        <span class="open__hour__works__day__time">
+                            с 7:00 до 22:00
+                        </span>
+                    </p>
+                    <p class="open__hour__day__off">
+                        В выходные дни:
+                        <span class="open__hour__day__off__time">
+                            с 10:00 до 22:00
+                        </span>
+                    </p>
+                </div>
+            </address>
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A7acc192b2b3a79191a5e6258e53333424018612dc6f3056012cd49985283e01d&amp;source=constructor" width="375" height="400" frameborder="0"></iframe>
+
+    
+        </section>
+    </main>
+
+    <footer class="footer">
+            <div class="contacts__logo">
+                <p class="contacts__logo-name">
+                    Baldegi
+                </p>
+                <p class="contacts__logo-text">
+                    уютная студия массажа
+                </p>
+            </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>

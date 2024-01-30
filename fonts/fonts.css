@@ -1,0 +1,27 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Playfair Display';
+    src:
+      local('Inter-Variable'),
+      url(./PlayfairDisplay-Bold.woff2) format('woff2 supports variations'),
+          url(./PlayfairDisplay-Bold.woff2) format('woff2-variations');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-display: swap;
+	font-family: 'Manrope';
+	src: url('./Manrope-Regular.woff2') format('woff2') url('./Manrope-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Bree Serif';
+    src: local('Bree Serif'), local('BreeSerif-Regular'), url('./breeserif.woff2') format('woff2'), url('./breeserif.woff') format('woff'), 
+    url('./breeserif.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
