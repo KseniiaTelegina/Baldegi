@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Массажный салон Baldegi</title>
+    <!-- <link rel="stylesheet" href="./styles/swiper.min.css" /> -->
     <link rel="stylesheet" href="./fonts/fonts.css"/>
     <link rel="stylesheet" href="./styles/variables.css"/>
     <link rel="stylesheet" href="./styles/global.css"/>
@@ -147,39 +148,20 @@
                 </li>
 
 
-                <!-- <li class="promotion__list-item">
-                    <a class="card-link" href="#0">
-                        <article class="card">
-                            <p class="promotion__name">
-                                ACCESS BARS <br>  от 60 до 90 минут
-                            </p>
-                            <p class="card__text">
-                                3500&#8381;
-                            </p>
-                            <img class="promotion__image"
-                            src="./images/11.jpg"
-                            alt="">
-                            <div class="promotion__price">
-                                2000&#8381;
-                            </div>
-                        </article>
-                    </a>
-                </li> -->
-
                 <li class="promotion__list-item">
                     <a class="card-link" href="#0">
                         <article class="card">
                             <p class="promotion__name">
-                                Сеанс "Обнуление и запуск новых энергий"
+                                Детский массаж 30 минут <br>  от 6 месяцев до 6 лет
                             </p>
                             <p class="card__text">
-                                4000&#8381;
+                                1090&#8381;
                             </p>
                             <img class="promotion__image"
-                            src="./images/2.jpg"
+                            src="./images/baby massage.png"
                             alt="">
                             <div class="promotion__price">
-                                3000&#8381;
+                                990&#8381;
                             </div>
                         </article>
                     </a>
@@ -193,110 +175,221 @@
             </h2>
             <ul class="exclusive__list">
                 <li class="exclusive__list-item">
+                    <figcaption class="exclusive__name">
+                        Исцеляющие прикосновения
+                    </figcaption>
                         <article class="exclusive__card healing__touch">
-                            <p class="exclusive__name">
-                                Исцеляющие прикосновения
-                            </p>
                             <p class="exclusive__time">
-                                80 минут
+                                60 минут
                             </p>
                             <p class="exclusive__price">
                                 2500&#8381;
                             </p>
+                        </article>
                             <button type="button" class="exclusive__button" onclick="window['action'].showModal()" aria-controls="action">
-                                <img src="./images/Frame 1.png" alt="">
+                                <span>Подробности и запись</span>
+                                <img src="./images/ex button.png" alt="">
                             </button>
                             <dialog id="action" class="dialog">
-                                <p class="dialog__text">
-                                    Этот массаж - про любовь к себе, своему состоянию и наполненности!<br>
-                                    Расслабляющий массаж, наполняющий энергией.<br>
-                                    Проводится с эфирными маслами - под запрос человека.<br>
-                                    Помогает убрать нервное напряжение, настроиться на положительные эмоции, уходит усталость и напряжение.<br>
-                                    Даёт возможность привести своë душевое состояние к гармонии со своими мыслями, стать устойчивей к стрессу.
-                                </p>
                                 <button
-                                class="dialog__button"
+                                class="dialog__button__close"
                                 type="button" 
                                 onclick="window['action'].close()">
-                                <span class="button__text">
-                                  назад
-                                </span>
+                                <img src="./images/dialog close.png">
                               </button>
+                                <div class="dialog__text">
+                                    <p>Этот массаж - про любовь к себе, своему состоянию и наполненности!</p>
+                                    <p>Расслабляющий массаж, наполняющий энергией.</p>
+                                    <p>Проводится с эфирными маслами - под запрос человека.</p>
+                                    <p>Помогает убрать нервное напряжение, настроиться на положительные эмоции, уходит усталость и напряжение.</p>
+                                    <p>Даёт возможность привести своë душевое состояние к гармонии со своими мыслями, стать устойчивей к стрессу.</p>
+                                </div>
+                                <button class="dialog__button__order" type="button">
+                                    Записаться на массаж
+                                </button>
                             </dialog>
-                        </article>
+
                 </li>
                 <li class="exclusive__list-item">
+                    <figcaption class="exclusive__name">
+                        Гавайский массаж <br>Ломи-Ломи
+                    </figcaption>
                         <article class="exclusive__card hawaiian__massage">
-                            <p class="exclusive__name">
+                            <!-- <p class="exclusive__name">
                                 Гавайский массаж Ломи-Ломи
-                            </p>
+                            </p> -->
                             <p class="exclusive__time">
                                 90 минут
                             </p>
                             <p class="exclusive__price">
                                 4000&#8381;
                             </p>
-                            <button type="button" class="exclusive__button" onclick="window['action2'].showModal()" aria-controls="action2">
-                                <img src="./images/Frame 1.png" alt="">
+                        </article>
+                            <button type="button" class="exclusive__button" onclick="window['action'].showModal()" aria-controls="action">
+                                <span>Подробности и запись</span>
+                                <img src="./images/ex button.png" alt="">
                             </button>
                             <dialog id="action2" class="dialog">
-                                <p class="dialog__text">
-                                    Массаж одновременно воздействует на все сферы: телесную, эмоциональную и духовную, освобождая от памяти прошлых событий.
-                                    Это древний и духовный вид массажа, котрый используют для глубокого расслабления, очищения от событий прошлого и трансформации. 
-                                    Ломи - это искусство исцеления, которое возвращает человека к себе, делает его целостным, позволяет увидеть свое истинное предназначение. 
-                                    Ломи делается предплечьями в движении танца, что обеспечивает мягкое, но очень глубокое воздействие, а сочетание теплого масла и 
-                                    мелодичной гавайской музыки придаст вам ощущение легкости и душевного комфорта. Во время массажа уделяется внимание проработке суставов, 
-                                    повышается их гибкость и подвижность. Обычно массаж Ломи-Ломи проводится для осуществления задуманного, считается, что он имеет свойства 
-                                    исполнять желания. Поэтому перед массажем рекомендуется сформулировать или подумать о своем запросе или желании"						
-                                </p>
                                 <button
-                                class="dialog__button"
+                                class="dialog__button__close"
                                 type="button" 
                                 onclick="window['action2'].close()">
-                                <span class="button__text">
-                                  назад
-                                </span>
+                                <img src="./images/dialog close.png">
                               </button>
+                                <div class="dialog__text">
+                                    <p>Массаж одновременно воздействует на все сферы: телесную, эмоциональную и духовную, освобождая от памяти прошлых событий.</p>
+                                    <p>Это древний и духовный вид массажа, котрый используют для глубокого расслабления, очищения от событий прошлого и трансформации.</p>
+                                    <p>Ломи - это искусство исцеления, которое возвращает человека к себе, делает его целостным, позволяет увидеть свое истинное предназначение. </p>
+                                    <p>Ломи делается предплечьями в движении танца, что обеспечивает мягкое, но очень глубокое воздействие, а сочетание теплого масла и 
+                                        мелодичной гавайской музыки придаст вам ощущение легкости и душевного комфорта. Во время массажа уделяется внимание проработке суставов, 
+                                        повышается их гибкость и подвижность.</p>
+                                    <p>Обычно массаж Ломи-Ломи проводится для осуществления задуманного, считается, что он имеет свойства 
+                                        исполнять желания. Поэтому перед массажем рекомендуется сформулировать или подумать о своем запросе или желании"</p>
+                                </div>
+                              <button class="dialog__button__order" type="button">
+                                Записаться на массаж
+                            </button>
                             </dialog>
-                        </article>
+
                 </li>
                 <li class="exclusive__list-item">
+                    <figcaption class="exclusive__name">
+                        Массаж поющими тибетскими чашам
+                    </figcaption>
                         <article class="exclusive__card tibetan__bowls">
-                            <p class="exclusive__name">
-                                Массаж поющими тибетскими чашами
-                            </p>
                             <p class="exclusive__time">
-                                80 минут
+                                60 минут
                             </p>
                             <p class="exclusive__price">
                                 2500&#8381;
                             </p>
-                            <button type="button" class="exclusive__button" onclick="window['action3'].showModal()" aria-controls="action3">
-                                <img src="./images/Frame 1.png" alt="">
-                            </button>
+                        </article>
+                        <button type="button" class="exclusive__button" onclick="window['action'].showModal()" aria-controls="action">
+                            <span>Подробности и запись</span>
+                            <img src="./images/ex button.png" alt="">
+                        </button>
                             <dialog id="action3" class="dialog">
-                                <p class="dialog__text">
-                                    Звуковая вибрация поющих чаш расслабляет мышцы воротниковой, шейной зоны, помогает при остеохондрозе. 
-                                    На эмоциональном уровне массаж поющими чашами - это отличное антистрессовое средство, во время массажа происходит 
-                                    ресслабление, начинают выходить эмоции, наступает умиротворение и гармонизация. Целительные свойства звуков поющих 
-                                    чаш гармонизируют взаимодействие между симпатической и парасимпатической нервными системами.При ударе ситком по 
-                                    чаще возникают вибрационные волны, которые приводят в движение клеточную жидкость. Происходит глубинный внутренний 
-                                    массаж тканей и органов на клеточном уровне, вибрации разливаются по всему телу. Звук поющей чаши ускоряет регенерацию 
-                                    клеток и омолаживает организм, способствует выработке гормонов радости, подтягивает кожу, делая ее красивой и здоровой. 
-                                    Массаж поющими тибетскими чашами –  звуковой вибрационный массаж,  гармонизирующий психо-эмоционального состояние, 
-                                    дающий успокоение, расслабление.						
-                                </p>
                                 <button
-                                class="dialog__button"
+                                class="dialog__button__close"
                                 type="button" 
                                 onclick="window['action3'].close()">
-                                <span class="button__text">
-                                  назад
-                                </span>
+                                <img src="./images/dialog close.png">
                               </button>
+                                <div class="dialog__text">
+                                    <p>Звуковая вибрация поющих чаш расслабляет мышцы воротниковой, шейной зоны, помогает при остеохондрозе.</p>
+                                    <p> На эмоциональном уровне массаж поющими чашами - это отличное антистрессовое средство, во время массажа происходит 
+                                    ресслабление, начинают выходить эмоции, наступает умиротворение и гармонизация. Целительные свойства звуков поющих чаш гармонизируют 
+                                    взаимодействие между симпатической и парасимпатической нервными системами.</p>
+                                    <p>При ударе ситком по чаще возникают вибрационные волны, которые приводят в движение клеточную жидкость. Происходит глубинный внутренний 
+                                        массаж тканей и органов на клеточном уровне, вибрации разливаются по всему телу. Звук поющей чаши ускоряет регенерацию 
+                                        клеток и омолаживает организм, способствует выработке гормонов радости, подтягивает кожу, делая ее красивой и здоровой. </p>
+                                    <p>Массаж поющими тибетскими чашами –  звуковой вибрационный массаж,  гармонизирующий психо-эмоционального состояние, 
+                                        дающий успокоение, расслабление.</p>
+                                    <p></p>						
+                                </div>
+                              <button class="dialog__button__order" type="button">
+                                Записаться на массаж
+                            </button>
                             </dialog>
-                        </article>
                 </li>
+                <li class="exclusive__list-item">
+                    <figcaption class="exclusive__name">
+                        Остеопатическая японская техника массажа лица "Коруги"
+                    </figcaption>
+                    <article class="exclusive__card korugi">
+                        <p class="exclusive__time">
+                            90 минут
+                        </p>
+                        <p class="exclusive__price">
+                            3500&#8381;
+                        </p>
+                    </article>
+                    <button type="button" class="exclusive__button" onclick="window['action'].showModal()" aria-controls="action">
+                        <span>Подробности и запись</span>
+                        <img src="./images/ex button.png" alt="">
+                    </button>
+                        <dialog id="exclusive-action" class="dialog">
+                            <button
+                            class="dialog__button__close"
+                            type="button" 
+                            onclick="window['exclusive-action'].close()">
+                            <img src="./images/dialog close.png">
+                          </button>
+                            <div class="dialog__text">
+                                <p>Не секрет, что возраст выдаёт не только кожа.</p>
+                                <p>В процессе старения постепенно смещаются кости черепа.</p>
+                                <p>В результате лицо становится шире, подбородок массивнее, профиль теряет изящество и утончённость.</p>
+                                <p>Коруги гармонично совмещает в себе техники массажа и остеопатии, воздействуя не только на мягкие ткани, но и на лицевой скелет. 
+                                    Процедура возвращает костям правильное положение, улучшает микроциркуляцию и снимает отёчность.</p>
+                                <p>Все шлаки, которые накапливаются, между костями, выводятся.
+                                    Лицо становится аккуратным и симметричным, черты приобретают аристократичность, кожа выглядит молодой, здоровой и упругой.</p>
+                                <p>Замечено, эффект от массажа  Коруги длится около 3 месяцев</p>		
+                            </div>
+                          <button class="dialog__button__order" type="button">
+                            Записаться на массаж
+                        </button>
+                        </dialog>
+            </li>
+            <li class="exclusive__list-item">
+                <figcaption class="exclusive__name">
+                    Глубокотканная техника массажа лица "Ручная пластика"
+                </figcaption>
+                <article class="exclusive__card plastika">
+                    <p class="exclusive__time">
+                        60 минут
+                    </p>
+                    <p class="exclusive__price">
+                        3500&#8381;
+                    </p>
+                </article>
+                <button type="button" class="exclusive__button" onclick="window['action'].showModal()" aria-controls="action">
+                    <span>Подробности и запись</span>
+                    <img src="./images/ex button.png" alt="">
+                </button>
+                    <dialog id="exclusive-action1" class="dialog">
+                        <button
+                        class="dialog__button__close"
+                        type="button" 
+                        onclick="window['exclusive-action1'].close()">
+                        <img src="./images/dialog close.png">
+                      </button>
+                        <div class="dialog__text">
+                            <p>Глубокотканная техника массажа лица "Ручная пластика"с акцентом на лифтинг глаз и с проработкой передней ШВЗ.</p>
+                            <p>В ходе массажа используется лимфодренажная техника, французская техника скульптурного массажа и приёмы из нехирургической блефаропластики.</p>
+                            <p>С помощью этого массажа можно добиться значительных положительных изменений:
+                                &bull; коррекция от мешков и тёмных кругов под глазами и снятие отечности; <br>
+                                &bull; коррекция нависшего века; <br>
+                                &bull; коррекция второго подбородка; <br>
+                                &bull; коррекция мимических морщин вокруг глаз и рта;<br>
+                                &bull; снятие спазма со лба, проработка морщин в том числе средней глубины;<br>
+                                &bull; освободить кожу от застоя жидкости, улучшить лимфодренаж;<br>
+                                &bull; стимулировать микроциркуляцию в тканях;<br>
+                                &bull; улучшить цвет лица;<br>
+                                &bull; коррекция положения шеи;<br>
+                                &bull; подтяжка скул и улучшения овала лица;<br>
+                                &bull; улучшается микроциркуляция и состояние кожи.<br>
+                            </p>
+                            <p>Длительность процедуры 50-60 минут (демакияж, массаж, нанесение уходовых средств)</p>
+                            <p>Соблюдение терапевтического курса процедур для сохранения стойкого эффекта:<br>
+                                &bull; 5-6 сеансов 1 раз в неделю (для оценки результата)<br>
+                                &bull; при положительной динамике ещё 5-6 сеансов 1 раз в две недели<br>
+                                &bull; при потребности в более глубокой проработки продолжить ещё 5-6 сеансов 1 раз в неделю
+                                на постоянной основе поддерживающий сеанс 1 раз в месяц.</p>
+                            <p>Противопоказания:<br>
+                                вирусные и другие инфекционные заболевания;<br>
+                                повышение температуры тела;<br>
+                                зажим (защемление) лицевых нервов;<br>
+                                наличие на коже лица воспалений в острой форме.</p>
+                            <p> Подходит для любого возраста:<br>
+                                До 35 лет - для профилактики (1 раз в месяц)<br>
+                                После 35 лет - курс для поддержания и продления молодости лица<br>
+                                После 40 лет - курс для борьбы с возрастными изменениями</p>
+                        </div>
+                      <button class="dialog__button__order" type="button">
+                        Записаться на массаж
+                    </button>
+                    </dialog>
+        </li>
         </section>
 
         <section class="pakets">
@@ -307,7 +400,7 @@
                 <li class="pakets__list-item">
                     <a class="pakets__card-link" href="#0">
                         <p class="pakets__name">
-                            Массаж тела <br> 60 минут
+                            Массаж тела
                         </p>
                         <article class="pakets__card massage__body">
                             <button class="pakets__button" type="button" onclick="window['action4'].showModal()" aria-controls="action4">
@@ -315,6 +408,7 @@
                             </button>
                             <dialog id="action4" class="pakets__dialog">
                                 <p class="pakets__about">
+                                    Время сеанса: 60 минут <br>
                                     Массаж, который Вы можете выбрать с мастером: <br>
                                     Классический‌ массаж - для общего оздоровления, снять мышечное напряжение, увеличить приток кислорода к клеткам.<br>
                                     Релаксирующий‌ - расслабляющий‌ глубокий‌ массаж, помогает при переутомлении, хронической‌ усталости, бессоннице, 
@@ -396,7 +490,7 @@
                 <li class="pakets__list-item">
                     <a class="pakets__card-link" href="#0">
                         <p class="pakets__name">
-                            Массаж лица <br> 45 минут
+                            Массаж лица
                         </p>
                         <article class="pakets__card massage__face">
                             <button class="pakets__button" type="button" onclick="window['action6'].showModal()" aria-controls="action6">
@@ -440,7 +534,7 @@
                 <li class="pakets__list-item">
                     <a class="pakets__card-link" href="#0">
                         <p class="pakets__name">
-                            LPG массаж <br> 45 минут
+                            LPG массаж
                         </p>
                         <article class="pakets__card massage__lpg">
                             <button class="pakets__button" type="button" onclick="window['action7'].showModal()" aria-controls="action7">
@@ -498,7 +592,7 @@
             <h2 class="section__title masters__title" id="masters">
                 Мастера
             </h2>
-            <swiper-container class="mySwiper" scrollbar-hide="true">
+            <swiper-container class="mySwiper" space-between="30" pagination="true" pagination-clickable="true">
                 <swiper-slide>
                     <img class="master__photo"
                     src="./images/сысоев алексей.jpg"
@@ -522,6 +616,9 @@
                                 Детский массаж, начиная с 6 мес.
                             </p>
                         </div>
+                        <button class="dialog__button__close" type="button" onclick="window['action8'].close()">
+                            <img class="dialog__button__close__image" src="./images/dialog close.png" alt="">
+                        </button>
                     </dialog>
                 </swiper-slide>
                 <swiper-slide>
@@ -546,6 +643,9 @@
                             <p>Массаж - это дорога постоянного саморазвития и совершенствования. <br>
                                 Это любимое дело жизни которое приносит мне радость!</p>
                         </div>
+                        <button class="dialog__button__close" type="button" onclick="window['action9'].close()">
+                            <img class="dialog__button__close__image" src="./images/dialog close.png" alt="">
+                        </button>
                     </dialog>
                 </swiper-slide>
                 <swiper-slide>
@@ -573,6 +673,9 @@
                                 Лечебный, профилактический, детский, точечный, сегментарно-рефлекторный, банный, медовый, антицеллюлитный массаж тела.</p>
                             <p>Индивидуальный подход к каждому клиенту!</p>
                         </div>
+                        <button class="dialog__button__close" type="button" onclick="window['action10'].close()">
+                            <img class="dialog__button__close__image" src="./images/dialog close.png" alt="">
+                        </button>
                     </dialog>
                 </swiper-slide>
                 <swiper-slide>
@@ -604,6 +707,9 @@
                             <p>Массаж - это мое вдохновение и радость!<br>
                                 Помогать людям, приносить счастье, наполняет меня, заставляя стремиться к еще большим высотам и знаниям!</p>
                         </div>
+                        <button class="dialog__button__close" type="button" onclick="window['action11'].close()">
+                            <img class="dialog__button__close__image" src="./images/dialog close.png" alt="">
+                        </button>
                     </dialog>
                 </swiper-slide>
                 <swiper-slide>
@@ -638,6 +744,9 @@
                                 Массаж лица, даже один раз в неделю, поможет вырабатывать организму большее количество эндорфинов, а значит, принесёт радость и удовольствие в вашу жизнь!
                                 Любите себя и слушайте своё тело!</p>
                         </div>
+                        <button class="dialog__button__close" type="button" onclick="window['action12'].close()">
+                            <img class="dialog__button__close__image" src="./images/dialog close.png" alt="">
+                        </button>
                     </dialog>
                 </swiper-slide>
               </swiper-container>
@@ -802,6 +911,7 @@
                 </p>
             </div>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
     <script src="./scripts/script.js"></script>
 </body>
