@@ -2,7 +2,7 @@
     font-display: swap;
     font-family: 'Playfair Display';
     src:
-      local('Inter-Variable'),
+      local('Playfair Display'),
       url(./PlayfairDisplay-Bold.woff2) format('woff2 supports variations'),
           url(./PlayfairDisplay-Bold.woff2) format('woff2-variations');
     font-weight: 700;
@@ -12,7 +12,10 @@
 @font-face {
     font-display: swap;
 	font-family: 'Manrope';
-	src: url('./Manrope-Regular.woff2') format('woff2') url('./Manrope-Regular.woff') format('woff');
+    src:
+    local('Manrope'),
+    url(./Manrope-Regular.woff2) format('woff2 supports variations'),
+        url(./Manrope-Regular.woff2) format('woff2-variations');
 	font-weight: 400;
 	font-style: normal;
 }
@@ -20,8 +23,21 @@
 @font-face {
     font-display: swap;
     font-family: 'Bree Serif';
-    src: local('Bree Serif'), local('BreeSerif-Regular'), url('./breeserif.woff2') format('woff2'), url('./breeserif.woff') format('woff'), 
-    url('./breeserif.ttf') format('truetype');
+    src:
+    local('Bree Serif'),
+    url(./breeserif.woff2) format('woff2 supports variations'),
+        url(./breeserif.woff2) format('woff2-variations');
     font-weight: 400;
     font-style: normal;
+}
+
+@font-face {
+    font-display: swap;
+	font-family: 'Cera';
+    src:
+    local('Cera'),
+    url(./CeraPro-Light.woff2) format('woff2 supports variations'),
+        url(./CeraPro-Light.woff2) format('woff2-variations');
+	font-weight: 400;
+	font-style: normal;
 }
