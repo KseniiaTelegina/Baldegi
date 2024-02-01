@@ -514,12 +514,15 @@
     background-image: url(../images/back\ btn.png);
     background-repeat: no-repeat;
     background-position: right;
-    border-color: #492e19;
+    border-left-color: #82663e;
+    border-right-color: #82663e;
+    border-top-color: #492e19;
+    border-bottom-color: #492e19;
     color: #492e19;
     padding: 10px 0 10px 0;
     border-radius: 5%;
     inline-size: 150px;
-    border-width: 10px;
+    border-width: 8px;
     font-weight: bold;
     justify-self: center;
     margin-inline-start: 35px;
