@@ -28,3 +28,19 @@ function onClickMenu(){
 //       },
 //     },
 //   });
+
+new Swiper(".mySwiper-masters", {
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        dynamicBullets: true,
+    },
+});
+
+new Swiper(".mySwiper-reviews", {
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        dynamicBullets: true,
+    },
+});

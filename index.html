@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Массажный салон Baldegi</title>
-    <!-- <link rel="stylesheet" href="./styles/swiper.min.css" /> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./fonts/fonts.css"/>
     <link rel="stylesheet" href="./styles/variables.css"/>
     <link rel="stylesheet" href="./styles/global.css"/>
@@ -403,39 +403,40 @@
                                 Подробнее
                             </button>
                             <dialog id="action4" class="pakets__dialog">
-                                <p class="pakets__about">
-                                    Время сеанса: 60 минут <br>
-                                    Массаж, который Вы можете выбрать с мастером: <br>
-                                    Классический‌ массаж - для общего оздоровления, снять мышечное напряжение, увеличить приток кислорода к клеткам.<br>
-                                    Релаксирующий‌ - расслабляющий‌ глубокий‌ массаж, помогает при переутомлении, хронической‌ усталости, бессоннице, 
-                                    снимает напряжение умственное и физическое.<br>
-                                    Лимфодренажный – выводит токсины и излишнюю жидкость из организма, устраняет отёчность, восстанавливает метаболизм.
-                                    Оказывает омолаживающее действие на организм.<br>
-                                    Спортивный‌ – помочь мышцам расслабиться, ускорить процесс восстановления после тренировок или подготовить 
-                                    тело к физическим нагрузкам.
-                                </p>
+                                <button
+                                class="dialog__button__close"
+                                type="button" 
+                                onclick="window['action4'].close()">
+                                <img src="./images/dialog close.png" alt="">
+                              </button>
+                                <div class="pakets__about">
+                                    <p>Время сеанса: 60 минут</p>
+                                    <p>Массаж, который Вы можете выбрать с мастером:</p>
+                                    <p>&#10048; Классический‌ массаж - для общего оздоровления, снять мышечное напряжение, увеличить приток кислорода к клеткам.</p>
+                                    <p>&#10048; Релаксирующий‌ - расслабляющий‌ глубокий‌ массаж, помогает при переутомлении, хронической‌ усталости, бессоннице, 
+                                        снимает напряжение умственное и физическое.</p>
+                                    <p>&#10048; Лимфодренажный – выводит токсины и излишнюю жидкость из организма, устраняет отёчность, восстанавливает метаболизм.
+                                        Оказывает омолаживающее действие на организм.</p>
+                                    <p>&#10048; Спортивный‌ – помочь мышцам расслабиться, ускорить процесс восстановления после тренировок или подготовить 
+                                        тело к физическим нагрузкам.</p>
+                                </div>
                                 <div class="pakets__dialog__table">
                                     <p class="pakets__dialog__text">
-                                        Массаж тела 60 минут (5 сеансов)
+                                        Массаж тела 60 минут <br>(5 сеансов)
                                     </p>
                                     <p class="pakets__dialog__price">
                                         9500&#8381;
                                     </p>
                                     <p class="pakets__dialog__text">
-                                        Массаж тела 60 минут (10 сеансов)
+                                        Массаж тела 60 минут<br> (10 сеансов)
                                     </p>
                                     <p class="pakets__dialog__price">
                                         18700&#8381;
                                     </p>
                                 </div>
-                                <button
-                                class="pakets__dialog__button"
-                                type="button" 
-                                onclick="window['action4'].close()">
-                                <span class="pakets__dialog__button__text">
-                                  OK
-                                </span>
-                              </button>
+                                <button class="dialog__button__order" type="button">
+                                    Записаться на массаж
+                                </button>
                             </dialog>
                         </article>
                     </a>
@@ -450,13 +451,19 @@
                                 Подробнее
                             </button>
                             <dialog id="action5" class="pakets__dialog">
-                                <p class="pakets__about">
-                                    Этот массаж - про любовь к себе, своему состоянию и наполненности!
-                                    Расслабляющий массаж, наполняющий энергией.
-                                    Проводится с эфирными маслами - под запрос человека.
-                                    Помогает убрать нервное напряжение, настроиться на положительные эмоции, уходит усталость и напряжение.
-                                    Даёт возможность привести своë душевое состояние к гармонии со своими мыслями, стать устойчивей к стрессу.
-                                </p>
+                                <button
+                                class="dialog__button__close"
+                                type="button" 
+                                onclick="window['action5'].close()">
+                                <img src="./images/dialog close.png" alt="">
+                              </button>
+                                <div class="pakets__about">
+                                    <p>Этот массаж - про любовь к себе, своему состоянию и наполненности!</p>
+                                    <p>Расслабляющий массаж, наполняющий энергией.
+                                        Проводится с эфирными маслами - под запрос человека.</p>
+                                    <p>&#10048; Помогает убрать нервное напряжение, настроиться на положительные эмоции, уходит усталость и напряжение.</p>
+                                    <p>&#10048; Даёт возможность привести своë душевое состояние к гармонии со своими мыслями, стать устойчивей к стрессу.</p>
+                                </div>
                                 <div class="pakets__dialog__table">
                                     <p class="pakets__dialog__text">
                                         Массаж "Исцеляющие прикосновения" (5 сеансов)
@@ -471,14 +478,9 @@
                                         21000&#8381;
                                     </p>
                                 </div>
-                                <button
-                                class="pakets__dialog__button"
-                                type="button" 
-                                onclick="window['action5'].close()">
-                                <span class="pakets__dialog__button__text">
-                                  OK
-                                </span>
-                              </button>
+                                <button class="dialog__button__order" type="button">
+                                    Записаться на массаж
+                                </button>
                             </dialog>
                         </article>
                     </a>
@@ -493,14 +495,21 @@
                                 Подробнее
                             </button>
                             <dialog id="action6" class="pakets__dialog">
-                                <p class="pakets__about">
-                                    Массаж лица - это натуральный лифтинг, который помогает держать в тонусе кожу и мышцы лица. Избавиться от отечности,
-                                    замедлить увядание и улучшить цвет лица.
-                                    С возрастом кожа теряет эластичность, но, если за этим следить и регулярно делать массаж лица, можно надолго сохранить 
-                                    естественную красоту и молодость!
-                                    Даже самые совершенные аппараты не заменят мастерство и тепло человеческих рук.
-                                    Массаж лица по- прежнему остаётся самым безопасным и эффективным способом замедлить старение.
-                                </p>
+                                <button
+                                class="dialog__button__close"
+                                type="button" 
+                                onclick="window['action6'].close()">
+                                <img src="./images/dialog close.png" alt="">
+                              </button>
+                                
+                                <div class="pakets__about">
+                                    <p>Массаж лица - это натуральный лифтинг, который помогает держать в тонусе кожу и мышцы лица, избавиться от отечности,
+                                        замедлить увядание и улучшить цвет лица.</p>
+                                    <p>С возрастом кожа теряет эластичность, но, если за этим следить и регулярно делать массаж лица, можно надолго сохранить 
+                                        естественную красоту и молодость!</p>
+                                    <p>Даже самые совершенные аппараты не заменят мастерство и тепло человеческих рук.</p>
+                                    <p>Массаж лица по- прежнему остаётся самым безопасным и эффективным способом замедлить старение.</p>
+                                </div>
                                 <div class="pakets__dialog__table">
                                     <p class="pakets__dialog__text">
                                         Массаж лица 45 минут (5 сеансов)
@@ -515,14 +524,9 @@
                                         18700&#8381;
                                     </p>
                                 </div>
-                                <button
-                                class="pakets__dialog__button"
-                                type="button" 
-                                onclick="window['action6'].close()">
-                                <span class="pakets__dialog__button__text">
-                                  OK
-                                </span>
-                              </button>
+                                <button class="dialog__button__order" type="button">
+                                    Записаться на массаж
+                                </button>
                             </dialog>
                         </article>
                     </a>
@@ -537,19 +541,26 @@
                                 Подробнее
                             </button>
                             <dialog id="action7" class="pakets__dialog">
-                                <p class="pakets__about">
-                                    LPG-массаж поможет скорректировать контуры тела, улучшить внешний вид кожи и повысить ее тонус.
-                                    Вакуумно-роликовый lpg-массаж на аппарате WirteX: <br>
-                                    ● поможет смоделировать силуэт<br>
-                                    ● позволит подтянуть «проблеменые» зоны тела <br>
-                                    ● разгладит поверхность кожи <br>
-                                    ● выведет лишнюю жидкость и снизит отечность<br>
-                                    ● избавит от целлюлита и дряблости кожи<br>
-                                    ● выведет молочную кислоту из мышц после активной физической нагрузки<br>
-                                    Имеются противопоказания.<br>
-                                    Индивидуальный костюм, приобретается отдельно.<br>
-                                    Массаж в сочетании с подтягивающим кремом, усиливает эффект от процедуры. <br>
-                                </p>
+                                <button
+                                class="dialog__button__close"
+                                type="button" 
+                                onclick="window['action7'].close()">
+                                <img src="./images/dialog close.png" alt="">
+                              </button>
+                                
+                                <div class="pakets__about">
+                                    <p>LPG-массаж поможет скорректировать контуры тела, улучшить внешний вид кожи и повысить ее тонус.</p>
+                                    <p>Вакуумно-роликовый lpg-массаж на аппарате WirteX:</p>
+                                    <p>● поможет смоделировать силуэт<br>
+                                        ● позволит подтянуть «проблеменые» зоны тела <br>
+                                        ● разгладит поверхность кожи <br>
+                                        ● выведет лишнюю жидкость и снизит отечность<br>
+                                        ● избавит от целлюлита и дряблости кожи<br>
+                                        ● выведет молочную кислоту из мышц после активной физической нагрузки<br></p>
+                                    <p>Имеются противопоказания.<br>
+                                        Индивидуальный костюм, приобретается отдельно.<br>
+                                        Массаж в сочетании с подтягивающим кремом, усиливает эффект от процедуры.<br></p>
+                                </div>
                                 <div class="pakets__dialog__table">
                                     <p class="pakets__dialog__text">
                                         LPG массаж 45 минут (5 сеансов), жиросжигающий крем в подарок
@@ -570,14 +581,9 @@
                                         21000&#8381;
                                     </p>
                                 </div>
-                                <button
-                                class="pakets__dialog__button"
-                                type="button" 
-                                onclick="window['action7'].close()">
-                                <span class="pakets__dialog__button__text">
-                                  OK
-                                </span>
-                              </button>
+                                <button class="dialog__button__order" type="button">
+                                    Записаться на массаж
+                                </button>
                             </dialog>
                         </article>
                     </a>
@@ -588,164 +594,184 @@
             <h2 class="section__title masters__title" id="masters">
                 Мастера
             </h2>
-            <swiper-container class="mySwiper" space-between="30" pagination="true" pagination-clickable="true">
-                <swiper-slide>
-                    <img class="master__photo"
-                    src="./images/сысоев алексей.jpg"
-                    alt="">
-                    <p class="master__name">
-                        Сысоев Алексей
-                    </p>
-                    <button type="button" class="master__button" onclick="window['action8'].showModal()" aria-controls="action8">
-                        подробнее о мастере
-                    </button>
-                    <dialog id="action8" class="masters__dialog">
-                        <div class="master__about">
-                            <p>Алексей <br>Массажист</p>
-                            <p>Опыт работы: <br>более 20 лет</p>
-                            <p>Образование: <br> Имеет диплом о средне-специальном медицинском образовании. <br>
-                                Диплом "Ассоциации массажистов Урала"<br>
-                                УГМА курсы, сертификат специалиста по лечебному массажу.<br>
-                                Диплом о профессиональной переподготовке по медицинскому массажу.<br>
-                                Сертифицированный специалист по комплексной медицинской реабилитации.<br></p>
-                            <p>Владеет техниками:<br>Лечебный, профилактический, восстанавливающий, реабилитационный, антицеллюлитный, лимфодренажный массаж тела.<br>
-                                Детский массаж, начиная с 6 мес.
-                            </p>
-                        </div>
-                        <button class="dialog__button__close" type="button" onclick="window['action8'].close()">
-                            <img class="dialog__button__close__image" src="./images/dialog close.png" alt="">
-                        </button>
-                    </dialog>
-                </swiper-slide>
-                <swiper-slide>
-                    <img class="master__photo"
-                    src="./images/бородина светлана.jpg"
-                    alt="">
-                    <p class="master__name">
-                        Бородина Светлана
-                    </p>
-                    <button type="button" class="master__button" onclick="window['action9'].showModal()" aria-controls="action9">
-                        подробнее о мастере
-                    </button>
-                    <dialog id="action9" class="masters__dialog">
-                        <div class="master__about">
-                            <p>Светлана<br>Массажист</p>
-                            <p>Опыт работы:<br>12 лет</p>
-                            <p>Образование: <br> Диплом массажиста<br>
-                                Сертификаты повышения квалификации: Anti-age лифтинг фасциальное моделирование
-                                лица, Детский массаж, Практика телесно-ориентированной терапии, Гавайский массаж Ломи Ломи Нуи.</p>
-                            <p>Владеет техниками:<br>Классический, расслабляющий, лимфодренажный, спортивный массаж, массаж лица, 
-                                гавайский массаж Ломи Ломи.</p>
-                            <p>Массаж - это дорога постоянного саморазвития и совершенствования. <br>
-                                Это любимое дело жизни которое приносит мне радость!</p>
-                        </div>
-                        <button class="dialog__button__close" type="button" onclick="window['action9'].close()">
-                            <img class="dialog__button__close__image" src="./images/dialog close.png" alt="">
-                        </button>
-                    </dialog>
-                </swiper-slide>
-                <swiper-slide>
-                    <img class="master__photo"
-                    src="./images/токмаков олег.jpg"
-                    alt="">
-                    <p class="master__name">
-                        Токмаков Олег
-                    </p>
-                    <button type="button" class="master__button" onclick="window['action10'].showModal()" aria-controls="action10">
-                        подробнее о мастере
-                    </button>
-                    <dialog id="action10" class="masters__dialog">
-                        <div class="master__about">
-                            <p>ОЛЕГ <br> Массажист</p>
-                            <p>Опыт работы: <br> более 3 лет</p>
-                            <p>Образование: <br>
-                                Закончил ЛГОУ по специальности - психолог. <br>
-                                Получил сертификаты по прохождению курсов массажа. <br>
-                                Участвовал в обучающих семинарах по различным методикам массажа. <br>
-                                Закончил курс соответствующий образовательной программе европейского сертификата психотерапевта. <br>
-                                Участник Общероссийской Профессиональной Психотерапевтической Лиги. <br>
-                                Проходит повышение квалификации по курсу телесно-ориентированная терапия. <br></p>
-                            <p>Владеет техниками:<br>
-                                Лечебный, профилактический, детский, точечный, сегментарно-рефлекторный, банный, медовый, антицеллюлитный массаж тела.</p>
-                            <p>Индивидуальный подход к каждому клиенту!</p>
-                        </div>
-                        <button class="dialog__button__close" type="button" onclick="window['action10'].close()">
-                            <img class="dialog__button__close__image" src="./images/dialog close.png" alt="">
-                        </button>
-                    </dialog>
-                </swiper-slide>
-                <swiper-slide>
-                    <img class="master__photo"
-                    src="./images/кубасова елена.jpg"
-                    alt="">
-                    <p class="master__name">
-                        Кубасова Елена
-                    </p>
-                    <button type="button" class="master__button" onclick="window['action11'].showModal()" aria-controls="action11">
-                        подробнее о мастере
-                    </button>
-                    <dialog id="action11" class="masters__dialog">
-                        <div class="master__about">
-                            <p>ЕЛЕНА <br> Массажист</p>
+            <div class="swiper mySwiper-masters">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="swiper__content">
                             
-                            <p>Опыт работы:<br>
-                                Более 5 лет</p>
-                            <p>Образование:<br>
-                                Имеет диплом с отличием по программе:<br>
-                                "Методики и техники медицинского массажа"
-                                Сертификаты по техникам: буккальный массаж, коруги, мануальное моделирование лица и шеи</p>  
-                            <p>Владеет техниками:<br>
-                                Классический, общий, антицеллюлитный, лимфодренажный, детский массаж тела.<br>
-                                Буккальный массаж лица. Мануальное моделирование лица и шеи с приемами Сплит-техник.<br>
-                                Лечит массажем: заболевания позвоночного столба, заболевания плечевого и коленного суставов, при травмах, параличах.</p>
-                            <p>Авторская техника:<br>
-                                "Коруги" - остеопатическая японская техника массажа лица.</p>
-                            <p>Массаж - это мое вдохновение и радость!<br>
-                                Помогать людям, приносить счастье, наполняет меня, заставляя стремиться к еще большим высотам и знаниям!</p>
+                            <img class="swiper__master__photo"
+                            src="./images/сысоев алексей.jpg"
+                            alt="">
+                            <p class="swiper__master__name">
+                                Сысоев Алексей
+                            </p>
+                            <button type="button" class="swiper__master__button" onclick="window['action8'].showModal()" aria-controls="action8">
+                                подробнее о мастере
+                            </button>
+                            <dialog id="action8" class="swiper__masters__dialog">
+                                <div class="master__about">
+                                    <p>Алексей <br>Массажист</p>
+                                    <p>Опыт работы: <br>более 20 лет</p>
+                                    <p>Образование: <br> Имеет диплом о средне-специальном медицинском образовании. <br>
+                                        Диплом "Ассоциации массажистов Урала"<br>
+                                        УГМА курсы, сертификат специалиста по лечебному массажу.<br>
+                                        Диплом о профессиональной переподготовке по медицинскому массажу.<br>
+                                        Сертифицированный специалист по комплексной медицинской реабилитации.<br></p>
+                                    <p>Владеет техниками:<br>Лечебный, профилактический, восстанавливающий, реабилитационный, антицеллюлитный, лимфодренажный массаж тела.<br>
+                                        Детский массаж, начиная с 6 мес.
+                                    </p>
+                                </div>
+                                <button class="dialog__button__close" type="button" onclick="window['action8'].close()">
+                                    <img class="dialog__button__close__image" src="./images/dialog close.png" alt="">
+                                </button>
+                            </dialog>
+
+
+                        </div>  
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper__content">
+                            <img class="swiper__master__photo"
+                            src="./images/бородина светлана.jpg"
+                            alt="">
+                            <p class="swiper__master__name">
+                                Бородина Светлана
+                            </p>
+                            <button type="button" class="swiper__master__button" onclick="window['action9'].showModal()" aria-controls="action9">
+                                подробнее о мастере
+                            </button>
+                            <dialog id="action9" class="swiper__masters__dialog">
+                                <div class="master__about">
+                                    <p>Светлана<br>Массажист</p>
+                                    <p>Опыт работы:<br>12 лет</p>
+                                    <p>Образование: <br> Диплом массажиста<br>
+                                        Сертификаты повышения квалификации: Anti-age лифтинг фасциальное моделирование
+                                        лица, Детский массаж, Практика телесно-ориентированной терапии, Гавайский массаж Ломи Ломи Нуи.</p>
+                                    <p>Владеет техниками:<br>Классический, расслабляющий, лимфодренажный, спортивный массаж, массаж лица, 
+                                        гавайский массаж Ломи Ломи.</p>
+                                    <p>Массаж - это дорога постоянного саморазвития и совершенствования. <br>
+                                        Это любимое дело жизни которое приносит мне радость!</p>
+                                </div>
+                                <button class="dialog__button__close" type="button" onclick="window['action9'].close()">
+                                    <img class="dialog__button__close__image" src="./images/dialog close.png" alt="">
+                                </button>
+                            </dialog>
                         </div>
-                        <button class="dialog__button__close" type="button" onclick="window['action11'].close()">
-                            <img class="dialog__button__close__image" src="./images/dialog close.png" alt="">
-                        </button>
-                    </dialog>
-                </swiper-slide>
-                <swiper-slide>
-                    <img class="master__photo"
-                    src="./images/лучинина любовь.jpg"
-                    alt="">
-                    <p class="master__name">
-                        Лучинина Любовь
-                    </p>
-                    <button type="button" class="master__button" onclick="window['action12'].showModal()" aria-controls="action12">
-                        подробнее о мастере
-                    </button>
-                    <dialog id="action12" class="masters__dialog">
-                        <div class="master__about">
-                            <p>ЛЮБОВЬ <br> Косметолог-массажист</p>
-                            <p>Опыт работы:<br> Более 3 лет</p>
-                            <p>Образование:<br>
-                                Дипломированный специалист, закончила факультет психологии в УРФУ.<br>
-                                Обучилась разным техникам массажа лица.<br>
-                                Сертификат "Базовый курс-Практик" Школы Психосоматики.<br>
-                                Свидетельство Практико-теоретический курс "Исцеляющие прикосновения"<br>
-                                Сертификат "Ручная пластика лица" Курсы массажа Татьяны Кисилевой<br>
-                                Сейчас проходит обучение в Уральской школе красоты, курс "Косметик- эстетики"</p>
-                            <p>Владеет техниками:<br>
-                                Лимфодренажный массаж лица, нехирургическая блефаропластика глаз, буккальный массаж лица.</p>
-                            <p>Авторская техника:<br>
-                                "Исцеляющие прикосновения" - Расслабляющий, наполняющий энергией массаж тела.<br>
-                                "Ручная пластика" - массаж лица, в котором собрано несколько техник.</p>
-                            <p>"Наше тело всё время говорит с нами. Главное, найти время для этого разговора..."<br>
-                                Я даю это время - во время массажа лица и расслабляющего массажа тела.
-                                Расслабляющий массаж - это отличная возможность помочь человеку выключить внутреннего контролёра, расслабиться и снять напряжение во всём теле.
-                                Массаж лица, даже один раз в неделю, поможет вырабатывать организму большее количество эндорфинов, а значит, принесёт радость и удовольствие в вашу жизнь!
-                                Любите себя и слушайте своё тело!</p>
+                        
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper__content">
+                            <img class="swiper__master__photo"
+                            src="./images/токмаков олег.jpg"
+                            alt="">
+                            <p class="swiper__master__name">
+                                Токмаков Олег
+                            </p>
+                            <button type="button" class="swiper__master__button" onclick="window['action10'].showModal()" aria-controls="action10">
+                                подробнее о мастере
+                            </button>
+                            <dialog id="action10" class="swiper__masters__dialog">
+                                <div class="master__about">
+                                    <p>ОЛЕГ <br> Массажист</p>
+                                    <p>Опыт работы: <br> более 3 лет</p>
+                                    <p>Образование: <br>
+                                        Закончил ЛГОУ по специальности - психолог. <br>
+                                        Получил сертификаты по прохождению курсов массажа. <br>
+                                        Участвовал в обучающих семинарах по различным методикам массажа. <br>
+                                        Закончил курс соответствующий образовательной программе европейского сертификата психотерапевта. <br>
+                                        Участник Общероссийской Профессиональной Психотерапевтической Лиги. <br>
+                                        Проходит повышение квалификации по курсу телесно-ориентированная терапия. <br></p>
+                                    <p>Владеет техниками:<br>
+                                        Лечебный, профилактический, детский, точечный, сегментарно-рефлекторный, банный, медовый, антицеллюлитный массаж тела.</p>
+                                    <p>Индивидуальный подход к каждому клиенту!</p>
+                                </div>
+                                <button class="dialog__button__close" type="button" onclick="window['action10'].close()">
+                                    <img class="dialog__button__close__image" src="./images/dialog close.png" alt="">
+                                </button>
+                            </dialog>
                         </div>
-                        <button class="dialog__button__close" type="button" onclick="window['action12'].close()">
-                            <img class="dialog__button__close__image" src="./images/dialog close.png" alt="">
-                        </button>
-                    </dialog>
-                </swiper-slide>
-              </swiper-container>
+                       
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper__content">
+                            <img class="swiper__master__photo"
+                            src="./images/кубасова елена.jpg"
+                            alt="">
+                            <p class="swiper__master__name">
+                                Кубасова Елена
+                            </p>
+                            <button type="button" class="swiper__master__button" onclick="window['action11'].showModal()" aria-controls="action11">
+                                подробнее о мастере
+                            </button>
+                            <dialog id="action11" class="swiper__masters__dialog">
+                                <div class="master__about">
+                                    <p>ЕЛЕНА <br> Массажист</p>
+                                    
+                                    <p>Опыт работы:<br>
+                                        Более 5 лет</p>
+                                    <p>Образование:<br>
+                                        Имеет диплом с отличием по программе:<br>
+                                        "Методики и техники медицинского массажа"
+                                        Сертификаты по техникам: буккальный массаж, коруги, мануальное моделирование лица и шеи</p>  
+                                    <p>Владеет техниками:<br>
+                                        Классический, общий, антицеллюлитный, лимфодренажный, детский массаж тела.<br>
+                                        Буккальный массаж лица. Мануальное моделирование лица и шеи с приемами Сплит-техник.<br>
+                                        Лечит массажем: заболевания позвоночного столба, заболевания плечевого и коленного суставов, при травмах, параличах.</p>
+                                    <p>Авторская техника:<br>
+                                        "Коруги" - остеопатическая японская техника массажа лица.</p>
+                                    <p>Массаж - это мое вдохновение и радость!<br>
+                                        Помогать людям, приносить счастье, наполняет меня, заставляя стремиться к еще большим высотам и знаниям!</p>
+                                </div>
+                                <button class="dialog__button__close" type="button" onclick="window['action11'].close()">
+                                    <img class="dialog__button__close__image" src="./images/dialog close.png" alt="">
+                                </button>
+                            </dialog>
+                        </div>
+                       
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper__content">
+                            <img class="swiper__master__photo"
+                            src="./images/лучинина любовь.jpg"
+                            alt="">
+                            <p class="swiper__master__name">
+                                Лучинина Любовь
+                            </p>
+                            <button type="button" class="swiper__master__button" onclick="window['action12'].showModal()" aria-controls="action12">
+                                подробнее о мастере
+                            </button>
+                            <dialog id="action12" class="swiper__masters__dialog">
+                                <div class="master__about">
+                                    <p>ЛЮБОВЬ <br> Косметолог-массажист</p>
+                                    <p>Опыт работы:<br> Более 3 лет</p>
+                                    <p>Образование:<br>
+                                        Дипломированный специалист, закончила факультет психологии в УРФУ.<br>
+                                        Обучилась разным техникам массажа лица.<br>
+                                        Сертификат "Базовый курс-Практик" Школы Психосоматики.<br>
+                                        Свидетельство Практико-теоретический курс "Исцеляющие прикосновения"<br>
+                                        Сертификат "Ручная пластика лица" Курсы массажа Татьяны Кисилевой<br>
+                                        Сейчас проходит обучение в Уральской школе красоты, курс "Косметик- эстетики"</p>
+                                    <p>Владеет техниками:<br>
+                                        Лимфодренажный массаж лица, нехирургическая блефаропластика глаз, буккальный массаж лица.</p>
+                                    <p>Авторская техника:<br>
+                                        "Исцеляющие прикосновения" - Расслабляющий, наполняющий энергией массаж тела.<br>
+                                        "Ручная пластика" - массаж лица, в котором собрано несколько техник.</p>
+                                    <p>"Наше тело всё время говорит с нами. Главное, найти время для этого разговора..."<br>
+                                        Я даю это время - во время массажа лица и расслабляющего массажа тела.
+                                        Расслабляющий массаж - это отличная возможность помочь человеку выключить внутреннего контролёра, расслабиться и снять напряжение во всём теле.
+                                        Массаж лица, даже один раз в неделю, поможет вырабатывать организму большее количество эндорфинов, а значит, принесёт радость и удовольствие в вашу жизнь!
+                                        Любите себя и слушайте своё тело!</p>
+                                </div>
+                                <button class="dialog__button__close" type="button" onclick="window['action12'].close()">
+                                    <img class="dialog__button__close__image" src="./images/dialog close.png" alt="">
+                                </button>
+                            </dialog>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
         </section>
 
         <section class="reviews">
@@ -755,21 +781,56 @@
                     довольных клиентов
                 </span>
             </h2>
-            <swiper-container class="mySwiper reviews__swiper"  scrollbar-hide="true">
-                <swiper-slide>
-                    <img class="swiper__image" src="./images/отзыв2.png" alt="">
-                </swiper-slide>
-                <swiper-slide>
-                    <img class="swiper__image" src="./images/отзыв1.png" alt="">
-                </swiper-slide>
-                <swiper-slide>
-                    <img class="swiper__image" src="./images/отзыв3.png" alt="">
-                </swiper-slide>
-                <swiper-slide>
-                    <img class="swiper__image" src="./images/отзыв4.png" alt="">
-                </swiper-slide>
-              </swiper-container>
-
+            <div class="swiper mySwiper-reviews">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="swiper__content">
+                            <img class="swiper__image" src="./images/отзыв1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper__content">
+                            <img class="swiper__image" src="./images/отзыв2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper__content">
+                            <img class="swiper__image" src="./images/отзыв3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper__content">
+                            <img class="swiper__image" src="./images/отзыв4.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper__content">
+                            <img class="swiper__image" src="./images/отзыв5.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper__content">
+                            <img class="swiper__image" src="./images/отзыв6.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper__content">
+                            <img class="swiper__image" src="./images/отзыв7.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper__content">
+                            <img class="swiper__image" src="./images/отзыв8.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper__content">
+                            <img class="swiper__image" src="./images/отзыв9.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination pagination__reviews"></div>
+            </div>
             <button class="reviews__button" type="button">
                 Выбрать мастера и записаться
             </button>
@@ -920,8 +981,10 @@
                 </p>
             </div>
     </footer>
+    <!-- <script src="./scripts/swiper-element-bundle.min.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script> -->
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./scripts/script.js"></script>
 </body>
 </html>
