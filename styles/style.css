@@ -303,7 +303,6 @@
 }
 
 .promotion__text {
-    /* font-style: italic; */
     text-align: center;
 }
 
@@ -320,7 +319,7 @@
     text-wrap: nowrap;
     grid-template-columns: repeat(2, 1fr);
     border-radius: 10%;
-    font-family: var(--font-accent);
+    font-family: var(--btn-font);
     background-image: url(../images/background\ card.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -334,6 +333,7 @@
     font-weight: bold;
     padding-block-start: 20px;
     padding-inline: 15px;
+    font-size: clamp(1.125rem, 0.9083rem + 0.9245vw, 1.5rem);
 }
 
 .old__price {
@@ -421,7 +421,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 10px;
-    font-family: var(--font-accent);
+    font-family: var(--btn-font);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -429,6 +429,7 @@
     block-size: 300px;
     /* max-inline-size: 350px; */
     border-radius: 10%;
+    font-weight: bold;
 }
 
 .exclusive__name {
@@ -439,8 +440,7 @@
     text-align: center;
     font-weight: bold;
     color: var(--accent-col);
-    font-family: var(--font-accent);
-    font-style: italic;
+    font-family: var(--btn-font);
     font-size: 20px;
 }
 
@@ -587,7 +587,7 @@ grid-column: 2;
 }
 
 .pakets__name {
-    font-family: var(--font-accent);
+    font-family: var(--btn-font);
     color: var(--accent-col);
     background-color: var(--acc-col);
     text-align: center;
@@ -596,7 +596,7 @@ grid-column: 2;
     opacity: 90%;
     /* border-top-right-radius: 40%; */
     padding-block: 10px;
-    font-size: clamp(0.875rem, 0.2972rem + 2.4653vw, 1.875rem);
+    font-size: clamp(1rem, 0.4222rem + 2.4653vw, 2rem);
     min-block-size: clamp(3.6875rem, 1.958rem + 7.3791vw, 5.5rem);
 }
 
@@ -1002,13 +1002,13 @@ grid-row: 4;
         row-gap: 20px;
     }
 
-    .kybasova {
+    .borodina {
         grid-row: 2;
         grid-column: 1/span 2;
         margin-inline-start: 150px;
     }
 
-    .luchinina {
+    .tokmakov {
         grid-row: 2;
         grid-column: 2/span 3;
         /* margin-inline-end: 50px; */
@@ -1117,8 +1117,8 @@ grid-row: 4;
         width: 200px;
     }
 
-    .kybasova,
-    .luchinina {
+    .borodina,
+    .tokmakov {
         margin-inline-start: 0;
     }
 
