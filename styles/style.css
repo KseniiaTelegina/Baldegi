@@ -480,7 +480,7 @@
     justify-content: end;
     align-items: center;
     gap: 10px;
-    font-size: clamp(0.875rem, 0.7305rem + 0.6163vw, 1.125rem);
+    font-size: clamp(0.875rem, 0.5861rem + 1.2327vw, 1.375rem);
     /* margin: 0 10px 0 150px; */
     font-family: var(--btn-font);
     color: var(--accent-col);
@@ -1209,6 +1209,10 @@ grid-row: 4;
         gap: 0;
     }
 
+    .exclusive__name {
+        font-size: 25px;
+    }
+
     #exclusive__card__first {
         grid-column: 1;
         grid-row: 1;
@@ -1220,23 +1224,23 @@ grid-row: 4;
         grid-row: 1/ span 2;
     }
 
-    #exclusive__card__third {
+    #exclusive__card__five {
         grid-column: 3;
         grid-row: 1;
     }
 
     #exclusive__card__four,
-    #exclusive__card__five {
+    #exclusive__card__third {
         margin-block-start: 50px;
-        grid-row: 2;
     }
 
     #exclusive__card__four {
         grid-column: 1;
     }
 
-    #exclusive__card__five {
+    #exclusive__card__third {
         grid-column: 3;
+        grid-row: 2;
     }
 
     .pakets__list {
