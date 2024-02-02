@@ -67,6 +67,10 @@ new Swiper(".mySwiper-reviews", {
         768: {
         slidesPerView: 'auto',
         spaceBetween: 7.5,
+        },
+        1600: {
+            slidesPerView: 'auto',
+            spaceBetween: 7.5,
         }
     }
 });
