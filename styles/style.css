@@ -1,4 +1,19 @@
+.header__button-menu:hover,
+.header__button:hover,
+.promotion__button__order:hover,
+.exclusive__button:hover,
+.dialog__button__order:hover,
+.pakets__button:hover,
+.swiper__master__button:hover,
+.footer__button:hover {
+    color: var(--accent-color);
+}
 
+.footer__list__link:hover {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+
+}
 
 .page {
     width: 100%;
